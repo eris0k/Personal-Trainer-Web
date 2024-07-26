@@ -18,9 +18,9 @@ export default function App() {
         <p className="text-lg">Tham gia để</p>
         <p className="text-xl">Cung cấp chế độ dinh dưỡng cá nhân và chế độ luyện tập phù hợp với thể trạng</p>
       </div>
-      <div className="grid grid-cols-3 m-8">
-        <span className="bg-red-300 text-xl sm:text-2xl col-span-1 flex justify-center items-center p-5 h-40 font-bold rounded-2xl">Bạn sẽ học được những điều sau đây</span>
-        <span className="col-span-2 mt-2 sm:mt-4"><ul className="bg-black text-white text-lg p-5">
+      <div className="grid grid-cols-3 m-8 drop-shadow-md">
+        <span className="bg-red-300 text-xl h-auto sm:text-2xl sm:h-40 col-span-1 flex justify-center items-center p-5 font-bold rounded-2xl">Bạn sẽ học được những điều sau đây</span>
+        <span className="col-span-2 py-4 "><ul className="bg-black text-white text-lg p-5">
           <li>Ăn uống đủ chất dinh dưỡng</li>
           <li>Giảm cân và giữ vững lâu dài</li>
           <li>Xây dựng nếp sống sinh hoạt lành mạnh</li>
@@ -40,8 +40,8 @@ export default function App() {
         <h1 className="font-bold text-4xl my-4">Đăng kí tham gia Ngân</h1>
         <button 
           onClick= {()=>{window.location.href = "https://forms.gle/QAQojmwtg99bp3M96"}} 
-          className="bg-blue-300 rounded-2xl p-5 px-8 my-4 text-white text-3xl hover:bg-black">
-          Đăng Kí
+          className="bg-blue-300 rounded-2xl p-5 px-8 my-4 text-white text-3xl hover:bg-black drop-shadow-md ">
+          Đăng kí
         </button>
       </div>
       <div className="max-w-screen-lg max-h-screen grid grid-cols-2 m-5 ml-10">
