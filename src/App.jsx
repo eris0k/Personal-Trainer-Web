@@ -19,8 +19,8 @@ export default function App() {
         <p className="text-xl">Cung cấp chế độ dinh dưỡng cá nhân và chế độ luyện tập phù hợp với thể trạng</p>
       </div>
       <div className="grid grid-cols-3 m-8">
-        <span className="bg-red-300 font col-span-1 flex justify-center items-center p-5 h-40 text-2xl font-bold rounded-2xl">Bạn sẽ học được những điều sau đây</span>
-        <span className="col-span-2 mt-5"><ul className="bg-black text-white text-lg p-5">
+        <span className="bg-red-300 text-xl sm:text-2xl col-span-1 flex justify-center items-center p-5 h-40 font-bold rounded-2xl">Bạn sẽ học được những điều sau đây</span>
+        <span className="col-span-2 mt-2 sm:mt-4"><ul className="bg-black text-white text-lg p-5">
           <li>Ăn uống đủ chất dinh dưỡng</li>
           <li>Giảm cân và giữ vững lâu dài</li>
           <li>Xây dựng nếp sống sinh hoạt lành mạnh</li>
